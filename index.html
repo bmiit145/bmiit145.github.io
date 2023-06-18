@@ -68,11 +68,39 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+
+	<style>
+		/* Hide the default scroll bar */
+		body::-webkit-scrollbar {
+			display: none;
+			/* For Chrome, Safari, and Opera */
+		}
+
+		body {
+			scrollbar-width: none;
+			/* For Firefox */
+			-ms-overflow-style: none;
+			/* For IE and Edge */
+		}
+
+		/* Add custom styling for the scroll bar (optional) */
+		body::-webkit-scrollbar {
+			width: 8px;
+			background-color: #f5f5f5;
+		}
+
+		body::-webkit-scrollbar-thumb {
+			background-color: #888;
+			border-radius: 4px;
+		}
+
+		body::-webkit-scrollbar-thumb:hover {
+			background-color: #555;
+		}
+	</style>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
-
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 		<div class="container">
 			<a class="navbar-brand" href="index.html">S.Priyank</a>
@@ -191,7 +219,9 @@
 				<div class="col-md-10 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Resume</h1>
 					<h2 class="mb-4">Resume</h2>
-					<p>Step into a World of Experience, Expertise, and Education, Where Achievements Unfold and Skills Shine. Explore the Journey that Shapes My Professional Profile and Unveils a Passion for Growth and Innovation
+					<p>Step into a World of Experience, Expertise, and Education, Where Achievements Unfold and Skills
+						Shine. Explore the Journey that Shapes My Professional Profile and Unveils a Passion for Growth
+						and Innovation
 					</p>
 				</div>
 			</div>
@@ -252,7 +282,7 @@
 			</div>
 			<div class="row justify-content-center mt-5">
 				<div class="col-md-6 text-center ftco-animate">
-					<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+					<p><a href="/public/resume/Priyank Resume - may 2023.pdf" download="cv-s_priyank.pdf" target="_blank" class="btn btn-primary py-4 px-5">Download CV</a></p>
 				</div>
 			</div>
 		</div>
@@ -264,7 +294,9 @@
 				<div class="col-md-12 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Services</h1>
 					<h2 class="mb-4">Services</h2>
-					<p>Elevating Standards: Unleashing the Power of Our Best Services, Delivering Unmatched Quality, Innovation, and Customer Satisfaction. Experience Excellence Redefined, Tailored to Meet Your Unique Needs.</p>
+					<p>Elevating Standards: Unleashing the Power of Our Best Services, Delivering Unmatched Quality,
+						Innovation, and Customer Satisfaction. Experience Excellence Redefined, Tailored to Meet Your
+						Unique Needs.</p>
 				</div>
 			</div>
 			<div class="row">
@@ -340,7 +372,8 @@
 				<div class="col-md-12 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Skills</h1>
 					<h2 class="mb-4">My Skills</h2>
-					<p>Unleashing the Power of Skills: Showcasing a Diverse Arsenal of Expertise, Innovation, and Problem-Solving. Explore a Spectrum of Proficiencies that Drive Results and Fuel Success</p>
+					<p>Unleashing the Power of Skills: Showcasing a Diverse Arsenal of Expertise, Innovation, and
+						Problem-Solving. Explore a Spectrum of Proficiencies that Drive Results and Fuel Success</p>
 				</div>
 			</div>
 			<div class="row">
@@ -690,8 +723,7 @@
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2">About</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-							there live the blind texts.</p>
+						<p>I'm Priyank Sutariya, a dedicated web developer with a passion for crafting exceptional digital experiences. With expertise in a variety of technologies, including Node.js, Laravel, Python, and Django, I specialize in web development.</p>
 						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
 							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -705,9 +737,12 @@
 						<ul class="list-unstyled">
 							<li><a href="#home-section"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
 							<li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-							<li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-							<li><a href="#projects-section"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
-							<li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+							<li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Services</a>
+							</li>
+							<li><a href="#projects-section"><span class="icon-long-arrow-right mr-2"></span>Projects</a>
+							</li>
+							<li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -715,10 +750,13 @@
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2">Services</h2>
 						<ul class="list-unstyled">
-							<li><a href="javascript:void(0)"><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
-							<li><a href="javascript:void(0)"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
+							<li><a href="javascript:void(0)"><span class="icon-long-arrow-right mr-2"></span>Web
+									Design</a></li>
+							<li><a href="javascript:void(0)"><span class="icon-long-arrow-right mr-2"></span>Web
+									Development</a></li>
 							<!-- <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Business Strategy</a></li> -->
-							<li><a href="javascript:void(0)"><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
+							<li><a href="javascript:void(0)"><span class="icon-long-arrow-right mr-2"></span>Data
+									Analysis</a></li>
 							<!-- <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Graphic Design</a></li> -->
 						</ul>
 					</div>
@@ -728,9 +766,12 @@
 						<h2 class="ftco-heading-2">Have a Questions?</h2>
 						<div class="block-23 mb-3">
 							<ul>
-								<li><span class="icon icon-map-marker"></span><span class="text">Kamrej, Surat, Gujrat, IN 394180</span></li>
-								<li><a href="tel:91898038051"><span class="icon icon-phone"></span><span class="text">+91 9898 038051</span></a></li>
-								<li><a href="mailto:sp8414sp@gmail.com" target="_blank"><span class="icon icon-envelope"></span><span
+								<li><span class="icon icon-map-marker"></span><span class="text">Kamrej, Surat, Gujrat,
+										IN 394180</span></li>
+								<li><a href="tel:91898038051"><span class="icon icon-phone"></span><span
+											class="text">+91 9898 038051</span></a></li>
+								<li><a href="mailto:sp8414sp@gmail.com" target="_blank"><span
+											class="icon icon-envelope"></span><span
 											class="text">sp8414sp@gmail.com</span></a></li>
 							</ul>
 						</div>
