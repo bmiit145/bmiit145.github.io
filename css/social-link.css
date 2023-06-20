@@ -1,0 +1,154 @@
+.main {
+    visibility: hidden;
+}
+
+@media screen and (min-width: 1024px) {
+    .main {
+        height: 100px;
+        width: 100px;
+        position: fixed;
+        right: -40px;
+        bottom: -40px;
+        transform: translate(-50%, -50%);
+        visibility: visible;
+    }
+
+    .top {
+        display: flex;
+    }
+
+    .bottom {
+        display: flex;
+    }
+
+    .square {
+
+        min-height: 50px;
+        min-width: 50px;
+        background-color: black;
+        transition-duration: .5s;
+        /* box-shadow: 10px 10px 3px rgba(128, 128, 128, .5); */
+        z-index: -5;
+        position: absolute;
+        visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sign {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        transition-duration: .5s;
+    }
+
+    .line {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        transition-duration: .5s;
+    }
+
+    /* .main:hover{
+    height: 100px;
+    width: 100px;
+} */
+
+    .main:hover .line {
+        transition-duration: .5s;
+        background-color: #ffbd39;
+    }
+
+    .main:hover .sign {
+        transform: rotate(135deg) scale(0.8);
+        transition-duration: .25s;
+        transition-timing-function: linear;
+        opacity: 0.7;
+    }
+
+    .main:hover .square {
+        transition-duration: .5s;
+        border-radius: 5px;
+        cursor: pointer;
+        min-height: 42px;
+        min-width: 42px;
+        background-color: white;
+        /* display: block; */
+        visibility: visible;
+    }
+
+    .main:hover .square::before {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: 2px auto;
+        transform: translate(-50%, -50%);
+    }
+
+    .main .one {
+        top: 0%;
+        left: 0%;
+    }
+
+    .main:hover .one::before {
+        content: url(https://image.flaticon.com/icons/png/32/226/226234.png);
+    }
+
+    .main:hover .one {
+        background-color: rgb(221, 221, 221);
+    }
+
+    .main .two {
+        top: 0%;
+        right: 0%;
+    }
+
+    .main:hover .two::before {
+        content: url(https://image.flaticon.com/icons/png/32/174/174876.png);
+    }
+
+    .main:hover .two {
+        background-color: rgb(221, 221, 221);
+    }
+
+    .main .three {
+        bottom: 0%;
+        left: 0%;
+    }
+
+    .main:hover .three::before {
+        content:url(12.png);
+    }
+
+    .main:hover .three {
+        /*     background-image: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);  */
+        background-color: rgb(221, 221, 221);
+    }
+
+    .main .four {
+        right: 0%;
+        bottom: 0%;
+    }
+
+    .main:hover .four::before {
+        content: url(https://www.flaticon.com/free-icon/instagram_174855?term=intagram&page=1&position=2&origin=search&related_id=174855);
+    }
+
+    .main:hover .four {
+        background-color: rgb(221, 221, 221);
+    }
+
+    .ver {
+        height: 30px;
+        width: 5px;
+    }
+
+    .hor {
+        height: 5px;
+        width: 30px;
+    }
+}
