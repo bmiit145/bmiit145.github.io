@@ -95,7 +95,7 @@
     }
 
     .main:hover .one::before {
-        content: url(https://image.flaticon.com/icons/png/32/226/226234.png);
+        content: url(../images/social-media/linkedin.png);
     }
 
     .main:hover .one {
@@ -108,7 +108,7 @@
     }
 
     .main:hover .two::before {
-        content: url(https://image.flaticon.com/icons/png/32/174/174876.png);
+        content: url(../images/social-media/whatsapp.png);
     }
 
     .main:hover .two {
@@ -121,7 +121,7 @@
     }
 
     .main:hover .three::before {
-        content:url(12.png);
+        content:url(../images/social-media/instagram.png);
     }
 
     .main:hover .three {
@@ -135,7 +135,7 @@
     }
 
     .main:hover .four::before {
-        content: url(https://www.flaticon.com/free-icon/instagram_174855?term=intagram&page=1&position=2&origin=search&related_id=174855);
+        content: url(../images/social-media/github.png);
     }
 
     .main:hover .four {
