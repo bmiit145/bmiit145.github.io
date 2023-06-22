@@ -102,7 +102,26 @@
 			}
 		}
 	</style>
+	<!-- toaster message -->
+	<style>
+		.toaster {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border-radius: 5px;
+			opacity: 0;
+			transform: translateY(100%);
+			transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+		}
 
+		.toaster.show {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	</style>
 
 </head>
 
@@ -856,6 +875,12 @@
 		</div>
 	</div>
 
+	<!-- Toaster message -->
+	<div id="toaster" class="toaster">
+		<span id="message" class="message"></span>
+	</div>
+
+
 	<!-- social link end -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -877,9 +902,27 @@
 		form.addEventListener('submit', e => {
 			e.preventDefault()
 			fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-				.then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+				.then(response => {
+					document.forms['contact-form'].reset();
+					showToaster();
+					// alert("Thanks for Contacting us..! We Will Contact You Soon...")
+				})
 				.catch(error => console.error('Error!', error.message))
 		})
+	</script>
+	<script>
+		function showToaster() {
+			var toaster = document.getElementById('toaster');
+			var message = document.getElementById('message');
+
+			message.innerText = "Success! Your message has been sent.";
+
+			toaster.classList.add('show');
+			setTimeout(function () {
+				toaster.classList.remove('show');
+			}, 3000); // Hide the toaster after 3 seconds
+		}
+
 	</script>
 </body>
 
