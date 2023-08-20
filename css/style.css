@@ -13854,7 +13854,7 @@ textarea.form-control {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;

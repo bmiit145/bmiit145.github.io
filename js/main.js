@@ -28,14 +28,22 @@
 	fullHeight();
 
 	// loader
-	var loader = function() {
-		setTimeout(function() { 
-			if($('#ftco-loader').length > 0) {
-				$('#ftco-loader').removeClass('show');
-			}
-		}, 1);
-	};
-	loader();
+
+	// var loader = function() {
+	// 	setTimeout(function() { 
+	// 		if($('#ftco-loader').length > 0) {
+	// 			$('#ftco-loader').removeClass('show');
+	// 		}
+	// 	}, 1);
+	// };
+	// loader();
+
+	window.addEventListener("load", function() {
+		// Hide the loader when the page has finished loading
+		var loader = document.querySelector("#ftco-loader");
+		loader.style.display = "none";
+	  });
+	  
 
 	// Scrollax
    $.Scrollax();
