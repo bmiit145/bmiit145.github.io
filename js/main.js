@@ -29,6 +29,8 @@
 
 	// loader
 
+	//for testing 
+	
 	// var loader = function() {
 	// 	setTimeout(function() { 
 	// 		if($('#ftco-loader').length > 0) {
