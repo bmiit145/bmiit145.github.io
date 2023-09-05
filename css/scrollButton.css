@@ -19,7 +19,7 @@
  #scrollButton {
      position: fixed;
      bottom: 8%;
-     right: 2%;
+     right: 10px;
      display: none;
      /* Initially hidden */
      z-index: 999;
