@@ -959,7 +959,9 @@
 				.catch(error => console.error('Error!', error.message))
 
 			const formspreeURL = 'https://formspree.io/f/mpzvdqal';
-			fetch(formspreeURL, { method: 'POST', body: new FormData(form) })
+			fetch(formspreeURL, { method: 'POST', body: new FormData(form) , headers: {
+            'Accept': 'application/json'
+        } })
 				.then(response => {
 					document.forms['contact-form'].reset();
 					showToaster("Email sent !..")
