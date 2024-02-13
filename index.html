@@ -958,17 +958,26 @@
 				})
 				.catch(error => console.error('Error!', error.message))
 
+			const formspreeURL = 'https://formspree.io/f/mpzvdqal';
+			fetch(formspreeURL, { method: 'POST', body: new FormData(form) })
+				.then(response => {
+					document.forms['contact-form'].reset();
+					showToaster("Email sent !..")
+					// alert("Thanks for Contacting us..! We Will Contact You Soon...")
+				})
+				.catch(error => console.error('Error!', error.message))
+			
 			form.action = 'https://formspree.io/f/mpzvdqal';
         		form.submit();
 		})
 	</script>
 
 	<script>
-		function showToaster() {
+		function showToaster(str) {
 			var toaster = document.getElementById('toaster');
 			var message = document.getElementById('message');
 
-			message.innerText = "Success! Your message has been sent.";
+			message.innerText = str || "Success! Your message has been sent.";
 
 			toaster.classList.add('show');
 			setTimeout(function () {
