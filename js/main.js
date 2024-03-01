@@ -41,16 +41,17 @@
 	// loader();
 
 	window.addEventListener("load", function() {
-		// Hide the loader when the page has finished loading
 		var loader = document.querySelector("#ftco-loader");
-
-		// Set a timeout to hide the loader after 5 seconds
-		setTimeout(function() {
+		var timeoutId = setTimeout(function() {
 			loader.style.display = "none";
 		}, 5000);
-		loader.style.display = "none";
 
-	  });
+		// Clear the timeout if the page finishes loading before 5 seconds
+		window.addEventListener("load", function() {
+			clearTimeout(timeoutId);
+			loader.style.display = "none";
+		});
+	});
 	  
 
 	// Scrollax
