@@ -30,28 +30,40 @@
 	// loader
 
 	//for testing 
-	
-	// var loader = function() {
-	// 	setTimeout(function() {
-	// 		if($('#ftco-loader').length > 0) {
-	// 			$('#ftco-loader').removeClass('show');
-	// 		}
-	// 	}, 100000);
-	// };
-	// loader();
 
-	window.addEventListener("load", function() {
-		var loader = document.querySelector("#ftco-loader");
-		var timeoutId = setTimeout(function() {
-			loader.style.display = "none";
-		}, 5000);
+	$(document).ready(function() {
+		var loader = $('#ftco-loader');
 
-		// Clear the timeout if the page finishes loading before 5 seconds
-		window.addEventListener("load", function() {
-			clearTimeout(timeoutId);
-			loader.style.display = "none";
+		// Function to hide the loader
+		var hideLoader = function() {
+			loader.fadeOut();
+		};
+
+		// Hide the loader if content or window is already loaded
+		$(window).on('load', function() {
+			hideLoader();
 		});
+
+		// Set a timeout to hide the loader after 5 seconds
+		setTimeout(function() {
+			hideLoader();
+		}, 5000);
 	});
+
+	// loader
+
+	// window.addEventListener("load", function() {
+	// 	var loader = document.querySelector("#ftco-loader");
+	// 	var timeoutId = setTimeout(function() {
+	// 		loader.style.display = "none";
+	// 	}, 5000);
+	//
+	// 	// Clear the timeout if the page finishes loading before 5 seconds
+	// 	window.addEventListener("load", function() {
+	// 		clearTimeout(timeoutId);
+	// 		loader.style.display = "none";
+	// 	});
+	// });
 	  
 
 	// Scrollax
