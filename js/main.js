@@ -43,7 +43,13 @@
 	window.addEventListener("load", function() {
 		// Hide the loader when the page has finished loading
 		var loader = document.querySelector("#ftco-loader");
+
+		// Set a timeout to hide the loader after 5 seconds
+		setTimeout(function() {
+			loader.style.display = "none";
+		}, 5000);
 		loader.style.display = "none";
+
 	  });
 	  
 
