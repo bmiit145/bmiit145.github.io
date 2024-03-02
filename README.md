@@ -4,12 +4,20 @@ Hi everyone, I'm Priyank Sutariya, a passionate web developer with 3 years of ex
 
 My journey into this field began with a spark of curiosity and a desire to create something impactful. This passion led me to delve into the intricacies of code, and I haven't looked back since. Over the past three years, I've honed my skills in various web development technologies, constantly striving to improve my craft and stay updated with the latest trends.
 
+**A Well-Rounded Individual**
+
+Beyond my technical expertise, I'm a firm believer in the importance of social engagement and giving back to the community. I actively participate in volunteer work, dedicating my time and skills to various causes I'm passionate about.Whether it's organizing coding workshops for underprivileged youth or contributing to open-source projects aimed at societal betterment, I strive to use my skills for the greater good.
+
+Additionally, I embrace leadership opportunities. During the academic year 2023-24, I had the honor of serving as the Vice-General Secretary (GS) of my college, Babu Madhav Institute of Information Technology (BMIIT), at Uka Tarsadia University (UTU). This experience allowed me to hone my leadership skills, collaborate effectively with diverse teams, and contribute to shaping the college experience for my peers.
+
 **A Glimpse into My Skills:**
 
 * **Frontend Development:** I'm proficient in bringing websites to life using **React.js**, a powerful JavaScript library that allows for creating dynamic and interactive user interfaces.
 * **Backend Development:** The server-side is my forte as well. I leverage the robust framework **Laravel** to build secure and scalable web applications.
 * **Cloud Technologies:** I understand the importance of deploying applications efficiently and reliably. My experience with cloud platforms like **AWS** and **Azure** empowers me to make informed decisions for your projects.
 * **AI & Machine Learning:** While my primary focus is web development, I'm also fascinated by the potential of artificial intelligence and machine learning. I possess a basic understanding of these domains and am constantly exploring ways to integrate them into my projects.
+
+
 
 **My Creative Outlet:**
 
