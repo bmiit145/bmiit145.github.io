@@ -1,23 +1,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!--   created with sitemap generator https://octopus.do   -->
-<url>
-<loc>https://priyanksutariya.tech</loc>
-<lastmod>2024-02-12</lastmod>
-<changefreq>always</changefreq>
-<priority>0.5</priority>
-</url>
-<url>
-<loc>https://priyanksutariya.tech/index.html</loc>
-<lastmod>2024-02-12</lastmod>
-<changefreq>always</changefreq>
-<priority>0.5</priority>
-</url>
-<url>
-<loc>
-https://priyanksutariya.tech/resume/Priyank%20Resume%20-%20may%202023.pdf
-</loc>
-<lastmod>2024-02-12</lastmod>
-<changefreq>always</changefreq>
-<priority>0.5</priority>
-</url>
+    <!--   created with sitemap generator https://octopus.do   -->
+    <url>
+        <loc>https://priyanksutariya.tech</loc>
+        <lastmod>2024-03-02</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://priyanksutariya.tech/index.html</loc>
+        <lastmod>2024-03-02</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>
+            https://priyanksutariya.tech/resume/Priyank%20Resume%20-%20feb%202024.pdf
+        </loc>
+        <lastmod>2024-03-02</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.80</priority>
+    </url>
 </urlset>
