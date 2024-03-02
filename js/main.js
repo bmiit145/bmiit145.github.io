@@ -29,8 +29,6 @@
 
 	// loader
 
-	//for testing 
-
 	$(document).ready(function() {
 		var loader = $('#ftco-loader');
 
