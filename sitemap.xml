@@ -1,23 +1,26 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!--   created with sitemap generator https://octopus.do   -->
-    <url>
-        <loc>https://priyanksutariya.tech</loc>
-        <lastmod>2024-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.00</priority>
-    </url>
-    <url>
-        <loc>https://priyanksutariya.tech/index.html</loc>
-        <lastmod>2024-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>
-            https://priyanksutariya.tech/resume/Priyank%20Resume%20-%20feb%202024.pdf
-        </loc>
-        <lastmod>2024-03-02</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.80</priority>
-    </url>
+<?xml version="1.0" encoding="UTF-8"?>
+    <!--  created with www.mysitemapgenerator.com  -->
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+  <loc>https://priyanksutariya.tech/</loc>
+  <lastmod>2024-03-22T11:17:33+01:00</lastmod>
+  <priority>1.0</priority>
+  <image:image>
+      <image:loc>https://priyanksutariya.tech/images/2.png</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://priyanksutariya.tech/images/1.png</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>https://priyanksutariya.tech/index.html</loc>
+  <lastmod>2024-03-22T11:17:33+01:00</lastmod>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://priyanksutariya.tech/resume/Priyank%20Resume%20-%20feb%202024.pdf</loc>
+  <lastmod>2024-03-22T11:17:33+01:00</lastmod>
+  <priority>0.8</priority>
+</url>
 </urlset>
+    
